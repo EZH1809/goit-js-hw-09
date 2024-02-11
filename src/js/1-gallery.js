@@ -90,7 +90,6 @@ function createGalleryItem({ preview, original, description }) {
 
   const galleryItem = document.createElement('li');
   galleryItem.insertAdjacentHTML('beforeend', galleryItemHTML);
-
   return galleryItem;
 }
 
@@ -101,7 +100,6 @@ function renderGallery(images) {
   const galleryItems = images.map(createGalleryItem);
   gallery.append(...galleryItems);
 }
-
 renderGallery(images);
 
 //Функция для обработки нажатия клавиши "Escape"
@@ -112,8 +110,8 @@ function handleKeyDown(event) {
   }
 }
 
+//Инициализация бибилиотеки
 const lightbox = new SimpleLightbox('.gallery a', {
-  
-  captionsData: 'alt',
+   captionsData: 'alt',
   captionDelay: 250,
   });
