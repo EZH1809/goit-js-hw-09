@@ -102,7 +102,6 @@ function renderGallery(images) {
   gallery.append(...galleryItems);
 }
 
-
 renderGallery(images);
 
 //Функция для обработки нажатия клавиши "Escape"
