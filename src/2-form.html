@@ -14,14 +14,15 @@
     <a href="./index.html">Go to home</a>
     <h1>Welcome to Form</h1>
   </section>
-  <form class="message-form">
+
+  <form class="feedback-form" autocomplete="off">
     <label>
       Email
-      <input type="email" name="email" />
+      <input type="email" name="email" autofocus />
     </label>
     <label>
       Message
-      <input type="message" name="message" />
+      <textarea name="message" rows="8"></textarea>
     </label>
     <button type="submit">Submit</button>
   </form>

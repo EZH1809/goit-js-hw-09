@@ -8,13 +8,13 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-.message-form {
+.feedback-form {
   border-radius: 8px;
   padding: 24px;
   width: 408px;
   height: 296px;
 }
-.message-form label {
+.feedback-form label {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -22,10 +22,10 @@ body {
   color: #2e2f42;
   display: block;
 }
-.message-form label:nth-child(2) input {
+.feedback-form label:nth-child(2) input {
   margin-bottom: 16px;
 }
-.message-form input {
+.feedback-form input {
   width: 360px;
   height: 40px;
   border-radius: 4px;
