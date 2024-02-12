@@ -112,6 +112,6 @@ function handleKeyDown(event) {
 
 //Инициализация бибилиотеки
 const lightbox = new SimpleLightbox('.gallery a', {
-   captionsData: 'alt',
+  captionsData: 'alt',
   captionDelay: 250,
   });
