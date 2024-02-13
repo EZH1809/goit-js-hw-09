@@ -102,13 +102,6 @@ function renderGallery(images) {
 }
 renderGallery(images);
 
-//Функция для обработки нажатия клавиши "Escape"
-
-function handleKeyDown(event) {
-  if (event.key === 'Escape') {
-    currentLightboxInstance.close();
-  }
-}
 
 //Инициализация бибилиотеки
 const lightbox = new SimpleLightbox('.gallery a', {
